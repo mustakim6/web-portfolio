@@ -63,7 +63,7 @@ nav a{
 
 /* css for banner */
 .banner{
-    border: 2px solid red;
+    
     display:flex;
     align-items: center;
     padding:30px 30px 0 180px;
@@ -144,6 +144,7 @@ margin-bottom:0;
     display: flex;
     margin: auto;
     justify-content: space-around;
+    margin:60px 0;
 }
 .shado{
     width:180px;
@@ -152,4 +153,20 @@ margin-bottom:0;
     padding:15px 25px;
     border-radius:6px;
 
+}
+
+/* css for summary */
+
+.Summary{
+    
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 60px 0;
+}
+
+.btn-position{
+
+   text-align: center;
+   margin:10px;
 }
