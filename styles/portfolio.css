@@ -56,8 +56,10 @@ nav a{
 
 .header{
     background-color: #FFF8F3;
-    background-image: url("../images/developer.png");
+    background-image: url('../images/developer.png'),url('../images/background.png');
     background-repeat: no-repeat;
+    background-position: top left,bottom right ;
+    
 
 }
 
@@ -67,9 +69,6 @@ nav a{
     display:flex;
     align-items: center;
     padding:30px 30px 0 180px;
-    background-image: url("../images/background.png");
-    background-repeat: no-repeat;
-    background-position: bottom right ;
     justify-content: space-between;
  
 }
